@@ -3,8 +3,8 @@
 <head>
     <title>Final Project</title>
     <link href="./assets/stylesheets/index.css" rel="stylesheet"/>
+    <script src="./assets/javascripts/index.js"></script>
 </head>
-
 
 <body>
   <div class="header">
@@ -17,25 +17,22 @@
       <div class="item"><a href="#tours">Tours</a></div>
     </div>
     <div class="icons">
-      <div class="icon">
-        <img src="./assets/images/icons/f.png" />
-      </div>
-      <div class="icon">
-        <img src="./assets/images/icons/t.png" />
-      </div>
-      <div class="icon">
-        <img src="./assets/images/icons/y.png" />
-      </div>
-      <div class="icon">
-        <img src="./assets/images/icons/s.png" />
-      </div>
-      <div class="icon">
-        <img src="./assets/images/icons/i.png" />
-      </div>
+      <div class="icon"><img src="./assets/images/icons/f.png" /></div>
+      <div class="icon"><img src="./assets/images/icons/t.png" /></div>
+      <div class="icon"><img src="./assets/images/icons/y.png" /></div>
+      <div class="icon"><img src="./assets/images/icons/s.png" /></div>
+      <div class="icon"><img src="./assets/images/icons/i.png" /></div>
     </div>
   </div>
-  <p>
-  </p>
+  <div class="content">
+    <video playsinline autoplay muted onended="playNext(event)">
+      <source type="video/mp4" data-src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/TGqjDAX0YXUr.mp4" src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/TGqjDAX0YXUr.mp4">
+      <source type="video/webm" data-src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/TWqQbzPOVhx1.webm" src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/TWqQbzPOVhx1.webm">
+    </video>
+    <video class="hidden" playsinline muted onended="playNext(event)">
+      <source type="video/mp4" data-src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/T48FIjeKeweg.mp4" src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/T48FIjeKeweg.mp4">
+      <source type="video/webm" data-src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/Tdl71L3wpff2.webm" src="https://ustudio-bg.global.ssl.fastly.net/ustudio/app/transcodes/Tdl71L3wpff2.webm">
+    </video>
+  </div>
 </body>
-
 </html>
