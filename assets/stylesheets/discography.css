@@ -1,38 +1,80 @@
 .content {
   display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.albums {
+  width: 50%;
+  display: flex;
   flex-direction: column;
-  border: 1px solid #fbd699;
+  border: 1px solid #282525;
+  background-color: rgba(0,0,0,0.75);
 }
 .content-title {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #b3b0a661;
+  margin-top: 3%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .album {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 .left {
+  width: 20%;
   display: flex;
+  margin: 30px;
   flex-direction: column;
 }
 .right {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  margin-right: 30px;
+  color: white;
 }
-.cover {
-  display: flex;
-  border: 1px solid #fbd699;
+.cover > img {
+  width: 100%;
+  border: 1px solid #5e5640;
 }
 .button {
   display: flex;
-  border: 1px solid #fbd699;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #5e5640;
+  color: #b3b0a6;
+  margin-top: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 10px;
+}
+.chortochka {
+  border-right: 1px solid #5e5640;
+  margin-right: 5px;
+  padding-right: 5px;
 }
 .album-title {
   display: flex;
-  border-bottom: 1px solid #fff;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.album-songs {
+  border-bottom: 1px solid #b3b0a661;
+  font-size: 8px;
+  padding-bottom: 20px
 }
 .song {
   display: flex;
-  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 8px;
+  color: white;
+  border-bottom: 1px solid #b3b0a661;
+}
+.song-title {
+  flex-grow: 1;
 }
