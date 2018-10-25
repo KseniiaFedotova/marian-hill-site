@@ -1,0 +1,19 @@
+.media-block > .tiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+}
+.media-block img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.media-block iframe {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.media-block .title {
+  text-align: center;
+  margin: 16px 0 16px 0;
+}
