@@ -69,9 +69,9 @@
 }
 .song {
   display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 8px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  font-size: 11px;
   color: white;
   border-bottom: 1px solid #b3b0a661;
 }

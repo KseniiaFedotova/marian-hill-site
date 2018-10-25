@@ -14,9 +14,11 @@ body {
   font-size: 1.35rem;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
+  margin: 0px 0px 0px 0px;
 }
 .header {
   display: flex;
+  margin: 16px 16px 0px 16px;
 }
 .menu {
   display: flex;
@@ -45,13 +47,19 @@ body {
   width: 30px;
 }
 .item > a {
+  color: #fbd69982;
+  text-align: center;
+  padding: 0px 8px;
+  text-decoration: none;
+}
+.item.selected > a {
   color: #fbd699;
   text-align: center;
   padding: 0px 8px;
   text-decoration: none;
 }
 .item > a:hover {
-  color: #fff;
+  color: #fbd699;
 }
 .hidden {
   display: none;
