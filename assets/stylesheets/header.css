@@ -14,7 +14,8 @@ body {
   font-size: 1.35rem;
   -webkit-font-smoothing: antialiased;
   text-transform: uppercase;
-  margin: 0px 0px 0px 0px;
+  margin: 0px auto 0px auto;
+  max-width: 1600px;
 }
 .header {
   display: flex;

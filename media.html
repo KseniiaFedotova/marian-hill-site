@@ -2,9 +2,13 @@
 <html class="show-background">
 <head>
     <title>Final Project</title>
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
     <link href="./assets/stylesheets/header.css" rel="stylesheet"/>
     <link href="./assets/stylesheets/media.css" rel="stylesheet"/>
+    <link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" />
+    <script src="./assets/javascripts/lightbox-plus-jquery.min.js"></script>
+    <script>lightbox.option({ wrapAround: true });</script>
 </head>
 
 <body>
@@ -14,8 +18,8 @@
       <div class="item"><a href="./about.html">About</a></div>
       <div class="item"><a href="./discography.html">Discography</a></div>
       <div class="item selected"><a href="./media.html">Media</a></div>
-      <div class="item"><a href="#store">Store</a></div>
-      <div class="item"><a href="#tours">Tours</a></div>
+      <div class="item"><a href="./store.html">Store</a></div>
+      <div class="item"><a href="./tours.html">Tours</a></div>
     </div>
     <div class="icons">
       <div class="icon">
@@ -47,25 +51,25 @@
   </div>
   <div class="content">
     <div class="media-block">
-      <div class="title">Media&nbsp;|&nbsp;Photos</div>
+      <div class="title"><div class="chortochka">Media</div><div>Photos</div></div>
       <div class="tiles">
-        <img class="photo-1" src="./assets/images/media/photo1.jpg" />
-        <img class="photo-2" src="./assets/images/media/photo2.jpg" />
-        <img class="photo-3" src="./assets/images/media/photo3.jpg" />
-        <img class="photo-4" src="./assets/images/media/photo4.jpg" />
-        <img class="photo-5" src="./assets/images/media/photo5.jpg" />
-        <img class="photo-6" src="./assets/images/media/photo6.jpg" />
-        <img class="photo-7" src="./assets/images/media/photo7.jpg" />
-        <img class="photo-8" src="./assets/images/media/photo8.jpeg"/>
-        <img class="photo-9" src="./assets/images/media/photo9.jpg" />
+        <a href="./assets/images/media/photo1.jpg" data-lightbox="photos"><img class="photo-1" src="./assets/images/media/photo1.jpg" /></a>
+        <a href="./assets/images/media/photo2.jpg" data-lightbox="photos"><img class="photo-2" src="./assets/images/media/photo2.jpg" /></a>
+        <a href="./assets/images/media/photo3.jpg" data-lightbox="photos"><img class="photo-3" src="./assets/images/media/photo3.jpg" /></a>
+        <a href="./assets/images/media/photo4.jpg" data-lightbox="photos"><img class="photo-4" src="./assets/images/media/photo4.jpg" /></a>
+        <a href="./assets/images/media/photo5.jpg" data-lightbox="photos"><img class="photo-5" src="./assets/images/media/photo5.jpg" /></a>
+        <a href="./assets/images/media/photo6.jpg" data-lightbox="photos"><img class="photo-6" src="./assets/images/media/photo6.jpg" /></a>
+        <a href="./assets/images/media/photo7.jpg" data-lightbox="photos"><img class="photo-7" src="./assets/images/media/photo7.jpg" /></a>
+        <a href="./assets/images/media/photo8.jpeg" data-lightbox="photos"><img class="photo-8" src="./assets/images/media/photo8.jpeg"/></a>
+        <a href="./assets/images/media/photo9.jpg" data-lightbox="photos"><img class="photo-9" src="./assets/images/media/photo9.jpg" /></a>
       </div>
     </div>
     <div class="media-block">
-      <div class="title">Media&nbsp;|&nbsp;Videos</div>
+      <div class="title"><div class="chortochka">Media</div><div>Videos</div></div>
       <div class="tiles">
+        <iframe src="https://www.youtube.com/embed/DpMfP6qUSBo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <iframe src="https://www.youtube.com/embed/upEX2JMp3c0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/upEX2JMp3c0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <iframe src="https://www.youtube.com/embed/upEX2JMp3c0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/8wjbY0Tyfr4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
   </div>
