@@ -23,6 +23,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
+  margin: 0px 20px 0px 20px;
+  border-bottom: 1px solid #b3b0a661;
 }
 .left {
   width: 20%;
@@ -63,17 +65,16 @@
   font-size: 12px;
 }
 .album-songs {
-  border-bottom: 1px solid #b3b0a661;
   font-size: 8px;
   padding-bottom: 20px
 }
 .song {
   display: flex;
-  margin-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
   font-size: 11px;
   color: white;
-  border-bottom: 1px solid #b3b0a661;
+  border-top: 1px solid #b3b0a661;
 }
 .song-title {
   flex-grow: 1;
