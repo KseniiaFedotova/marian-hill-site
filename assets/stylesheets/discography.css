@@ -39,7 +39,7 @@
   margin-right: 30px;
   color: white;
 }
-.cover > img {
+.cover img {
   width: 100%;
   border: 1px solid #5e5640;
 }
@@ -53,6 +53,7 @@
   padding-top: 3px;
   padding-bottom: 3px;
   font-size: 10px;
+  cursor: pointer;
 }
 .chortochka {
   border-right: 1px solid #5e5640;
@@ -78,4 +79,27 @@
 }
 .song-title {
   flex-grow: 1;
+}
+.spotify .songs {
+  display: none;
+}
+.spotify .right iframe {
+  display: block;
+  height: 500px;
+}
+.right iframe {
+  display: none;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+.left .button a {
+  color: #b3b0a6;
+  text-decoration: none;
+  cursor: pointer;
+}
+.left .button a:hover {
+  color: #fbd699;
+  text-decoration: none;
+  cursor: pointer;
 }
